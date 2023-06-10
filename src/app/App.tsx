@@ -1,13 +1,13 @@
 import React from 'react';
 import './App.css';
-import {Todo} from "../features/Todo";
+import { Todo } from '../features/Todo';
 
-function App() {
+const App = (): JSX.Element => {
   return (
     <div className="App">
-      <Todo/>
+      <Todo />
     </div>
   );
-}
+};
 
 export default App;
