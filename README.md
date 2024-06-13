@@ -1,4 +1,4 @@
-## <a href="https://roky-test.vercel.app/" target="_blank">Roky</a>
+## <a href="https://todo-mu-livid.vercel.app/" target="_blank">Todo</a>
 
 ToDo-приложение, позволяющее управлять текущим списком дел
 
@@ -13,7 +13,7 @@ ToDo-приложение, позволяющее управлять текущ�
 Clone repositories:
 
 ```
-https://github.com/Nikita1025/roky-test.git
+https://github.com/Nikita1025/todoTest.git
 ```
 Install dependencies:
 
