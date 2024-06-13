@@ -1,18 +1,22 @@
-import { changeFilterAC, todoReducer, TodoType } from '../store/reducers/todo-reducer';
+import {
+  changeFilter,
+  todoReducer,
+  TodoSlice,
+} from "../servies/slices/todoSlice";
 
-let startState: TodoType = {
-  filter: 'all',
+let startState: TodoSlice = {
+  filter: "all",
 };
 beforeEach(() => {
   startState = {
-    filter: 'all',
+    filter: "all",
   };
 });
 
-test('filter should be changed', () => {
-  const action = changeFilterAC('completed');
+test("filter should be changed", () => {
+  const action = changeFilter({ filter: "completed" });
 
   const endState = todoReducer(startState, action);
 
-  expect(endState.filter).toBe('completed');
+  expect(endState.filter).toBe("completed");
 });

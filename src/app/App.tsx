@@ -1,10 +1,10 @@
-import React from 'react';
-import './App.css';
-import { Todo } from '../features/Todo';
+import React from "react";
+import s from "./App.module.scss";
+import { Todo } from "../features/Todo";
 
 const App = (): JSX.Element => {
   return (
-    <div className="App">
+    <div className={s.app}>
       <Todo />
     </div>
   );
